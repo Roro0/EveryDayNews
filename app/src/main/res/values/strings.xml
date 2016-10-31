@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">每日新闻</string>
+    <string name="xlistview_header_hint_pull_down">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_more">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="service_clause">我同意“</string>
+    <!--“服务条款”和“网络用户隐私保护和个人信息利用政策”-->
+    <string name="service_detail">服务条款</string>
+    <string name="service_he">”和“</string>
+    <string name="service_private_polity">网络用户隐私保护和个人信息利用政策</string>
+
+</resources>

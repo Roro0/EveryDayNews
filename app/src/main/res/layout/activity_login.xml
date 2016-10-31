@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+   <android.support.design.widget.TextInputLayout
+       android:id="@+id/TextInputLayout_01"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="15dp"
+       android:layout_marginRight="15dp"
+       android:focusable="true"
+       android:focusableInTouchMode="true"
+       android:layout_marginTop="25dp">
+       <android.support.design.widget.TextInputEditText
+           android:id="@+id/login_edit_account"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:cursorVisible="true"
+           android:hint="请输入账户昵称"
+
+          />
+
+   </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/TextInputLayout_02"
+        android:layout_below="@id/TextInputLayout_01"
+        android:layout_width="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        android:layout_marginTop="25dp"
+        >
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/login_edit_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:cursorVisible="true"
+            android:hint="密码：6-16位个字符"
+
+    />
+    </android.support.design.widget.TextInputLayout>
+    <LinearLayout
+        android:id="@+id/ll_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/TextInputLayout_02"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+<Button
+    android:id="@+id/btn_regist"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="match_parent"
+    android:background="@color/red_head"
+    android:layout_marginRight="10dp"
+    android:text="注册"
+    android:textColor="@color/white"
+    android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btn_forget_pwd"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@color/red_head"
+            android:layout_marginRight="10dp"
+            android:text="忘记密码"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@color/red_head"
+            android:text="登录"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+           />
+    </LinearLayout>
+</RelativeLayout>

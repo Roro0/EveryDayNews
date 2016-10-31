@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginTop="30dp"
+    android:layout_gravity="center">
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/iv_slide_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/biz_navigation_tab_news"/>
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp">
+    <TextView
+        android:id="@+id/tv_slide_name"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="#ffffff"
+android:gravity="center_vertical"
+        android:text="新闻"/>
+        <TextView
+            android:id="@+id/tv_slide_eName"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textColor="#ffffff"
+            android:text="NEWS"/>
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>

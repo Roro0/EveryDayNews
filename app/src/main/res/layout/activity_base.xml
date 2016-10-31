@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:gravity="center_vertical"
+    android:id="@+id/ll_guide_head"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="@mipmap/btn_1">
+    <ImageView
+        android:id="@+id/iv_base_left"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+         android:layout_marginLeft="10dp"
+        android:background="@mipmap/ic_title_home_default"
+        />
+    <TextView
+        android:id="@+id/tv_base_title"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="资讯"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/iv_base_right"
+        android:layout_width="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="30dp"
+        android:background="@mipmap/ic_title_share_default"/>
+</LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_base_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </RelativeLayout>
+</LinearLayout>
+
+</LinearLayout>
